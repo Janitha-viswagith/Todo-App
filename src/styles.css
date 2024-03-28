@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #042940;
+    color: #9FC131;
+}
+
+.todo-app {
+    background-color: #005C53;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+
+}
+
+#addBtn {
+    background-color: #042940;
+    border: 1px solid #005C53;
+    color: #9FC131;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+}
+
+#addBtn:hover {
+    background-color: #005C53;
+    color: #9FC131;
+}
+
+li {
+    color: #9FC131;
+    background-color: #042940;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+
+}
+
+#todoInput {
+    background-color: #042940;
+    border: 1px solid #005C53;
+    color: #9FC131;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 80px;
+    margin-right: 5%;
+    outline: none;
+    transform: border- color 0.2s;
+}
+
+#todoInput:focus {
+    border-color: #9FC131;
+
+}
+
+.done-btn {
+    background-color: #9FC131;
+    color: #042940;
+    
+}
